@@ -6,7 +6,9 @@ NVCCFLAGS ?= -O3 -std=c++17 -lineinfo -Xptxas=-v
 all: build/soft_voronoi_bench
 build/soft_voronoi_bench: soft_voronoi_bench.cu
 	mkdir -p build
-	$(NVCC) $(NVCCFLAGS) -arch=$(ARCH) $< -o $@
+	@printf '%s\n' '$(NVCC) $(NVCCFLAGS) -arch=$(ARCH) $< -o $@' > build/compile.command
+	@$(NVCC) $(NVCCFLAGS) -arch=$(ARCH) $< -o $@ > build/compile.stdout 2> build/compile.stderr || { cat build/compile.stderr >&2; exit 1; }
+	@cat build/compile.stderr >&2
 test: all
 	./build/soft_voronoi_bench --self-test
 clean:

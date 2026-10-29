@@ -52,6 +52,10 @@ Requirements: Linux, NVIDIA CUDA toolkit with CUB, C++17, Python 3.9+ standard
 library, `flock`, `taskset`, and a user-approved idle GPU. No package install is
 required. Adjust architecture to the target card. Never commandeer a busy GPU.
 
+Before building, the archived record check can run on the clean checkout with
+`python3 scripts/verify_results.py`. A newly compiled executable has its own hash
+and must not be confused with the archived measured binary.
+
 ```sh
 make NVCC=/usr/local/cuda-13.1/bin/nvcc ARCH=sm_120
 python3 scripts/test_data.py
@@ -68,7 +72,8 @@ bash scripts/run_campaign.sh test runs/raw/my-test
 python3 scripts/summarize.py runs/raw/my-test/*.jsonl --output-dir runs/summary/my-test
 ```
 
-The runner serializes its own work, checks for active compute processes on the
+The Makefile preserves `build/compile.command` and `build/compile.stderr` for
+the runner's provenance manifest. The runner serializes its own work, checks for active compute processes on the
 target GPU before each workload, pins eight CPU cores, and refuses to overwrite
 an output directory. Coordinate allocation with other users; a file lock is not
 a cluster reservation. Use the same lock for manual sanitizer/profiler runs.
@@ -85,7 +90,8 @@ nvcc -O3 -std=c++17 -arch=sm_120 soft_voronoi_bench.cu -o soft_voronoi_bench
 The pinned public word source and synthetic generation rules are in
 [docs/data.md](docs/data.md). No raw corpus is redistributed. Source, workload,
 compiler and binary hashes accompany raw measurements. To verify the shipped
-matrix without a GPU:
+matrix without a GPU, use a clean checkout **before building or generating new
+artifacts** (existing files are checked against the archived identities):
 
 ```sh
 python3 scripts/verify_results.py
