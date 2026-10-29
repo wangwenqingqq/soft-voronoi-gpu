@@ -1,0 +1,2 @@
+name, driver_version, compute_cap, memory.used [MiB], utilization.gpu [%], clocks.current.sm [MHz], clocks.current.memory [MHz], power.limit [W], temperature.gpu
+NVIDIA RTX PRO 6000 Blackwell Server Edition, 590.48.01, 12.0, 14 MiB, 1 %, 2325 MHz, 12481 MHz, 600.00 W, 30

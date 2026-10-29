@@ -1,0 +1,15 @@
+2026-10-29T09:21:41Z loading/layout 100000 objects; building 512 anchors
+2026-10-29T09:21:42Z sample-check passed 64 deterministic real database/query pairs outside timing
+2026-10-29T09:21:42Z benchmark kb=4 cap=2000
+2026-10-29T09:21:42Z completed 32/32 queries
+2026-10-29T09:21:42Z benchmark kb=4 cap=5000
+2026-10-29T09:21:42Z completed 32/32 queries
+2026-10-29T09:21:42Z benchmark kb=8 cap=2000
+2026-10-29T09:21:42Z completed 32/32 queries
+2026-10-29T09:21:42Z benchmark kb=8 cap=5000
+2026-10-29T09:21:42Z completed 32/32 queries
+2026-10-29T09:21:42Z benchmark kb=16 cap=2000
+2026-10-29T09:21:42Z completed 32/32 queries
+2026-10-29T09:21:42Z benchmark kb=16 cap=5000
+2026-10-29T09:21:42Z completed 32/32 queries
+2026-10-29T09:21:42Z benchmark complete

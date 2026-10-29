@@ -1,0 +1,126 @@
+ptxas info    : 57 bytes gmem
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort29DeviceRadixSortOnesweepKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EjS6_jiiNS1_21identity_decomposer_tEEEvPT5_SC_PT3_PKSD_PT1_PKSH_PT2_PKSL_T4_iiT6_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort29DeviceRadixSortOnesweepKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EjS6_jiiNS1_21identity_decomposer_tEEEvPT5_SC_PT3_PKSD_PT1_PKSH_PT2_PKSL_T4_iiT6_
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 80 registers, used 1 barriers, 16 bytes cumulative stack size, 31744 bytes smem
+ptxas info    : Compile time = 80.580 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort33DeviceRadixSortExclusiveSumKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000EjEEvPT0_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort33DeviceRadixSortExclusiveSumKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000EjEEvPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, used 1 barriers, 1184 bytes smem
+ptxas info    : Compile time = 3.433 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort30DeviceRadixSortHistogramKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EjjNS1_21identity_decomposer_tEEEvPT2_PKT1_SB_iiT3_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort30DeviceRadixSortHistogramKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EjjNS1_21identity_decomposer_tEEEvPT2_PKT1_SB_iiT3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 1 barriers, 4096 bytes smem
+ptxas info    : Compile time = 25.656 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort31DeviceRadixSortSingleTileKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EjS6_jNS1_21identity_decomposer_tEEEvPKT1_PSB_PKT2_PSF_T3_iiT4_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort31DeviceRadixSortSingleTileKernelINS1_5radix10policy_hubIjNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EjS6_jNS1_21identity_decomposer_tEEEvPKT1_PSB_PKT2_PSF_T3_iiT4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 128 registers, used 1 barriers, 33856 bytes smem
+ptxas info    : Compile time = 25.135 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort29DeviceRadixSortOnesweepKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EyS6_jiiNS1_21identity_decomposer_tEEEvPT5_SC_PT3_PKSD_PT1_PKSH_PT2_PKSL_T4_iiT6_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort29DeviceRadixSortOnesweepKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EyS6_jiiNS1_21identity_decomposer_tEEEvPT5_SC_PT3_PKSD_PT1_PKSH_PT2_PKSL_T4_iiT6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 97 registers, used 1 barriers, 47104 bytes smem
+ptxas info    : Compile time = 58.423 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort33DeviceRadixSortExclusiveSumKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000EjEEvPT0_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort33DeviceRadixSortExclusiveSumKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000EjEEvPT0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, used 1 barriers, 1184 bytes smem
+ptxas info    : Compile time = 3.375 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort30DeviceRadixSortHistogramKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EyjNS1_21identity_decomposer_tEEEvPT2_PKT1_SB_iiT3_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort30DeviceRadixSortHistogramKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EyjNS1_21identity_decomposer_tEEEvPT2_PKT1_SB_iiT3_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 42 registers, used 1 barriers, 8192 bytes smem
+ptxas info    : Compile time = 26.691 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail10radix_sort31DeviceRadixSortSingleTileKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EyS6_jNS1_21identity_decomposer_tEEEvPKT1_PSB_PKT2_PSF_T3_iiT4_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail10radix_sort31DeviceRadixSortSingleTileKernelINS1_5radix10policy_hubIyNS0_8NullTypeEjE10Policy1000ELNS0_9SortOrderE0EyS6_jNS1_21identity_decomposer_tEEEvPKT1_PSB_PKT2_PSF_T3_iiT4_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 95 registers, used 1 barriers, 33856 bytes smem
+ptxas info    : Compile time = 17.425 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail4scan16DeviceScanKernelINS2_10policy_hubIiiijN4cuda3std3__44plusIvEEE10Policy1000EPiSC_NS0_13ScanTileStateIiLb1EEES9_NS1_10InputValueIiSC_EEjiLb0EiEEvT0_T1_T2_iT3_T4_T5_' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail4scan16DeviceScanKernelINS2_10policy_hubIiiijN4cuda3std3__44plusIvEEE10Policy1000EPiSC_NS0_13ScanTileStateIiLb1EEES9_NS1_10InputValueIiSC_EEjiLb0EiEEvT0_T1_T2_iT3_T4_T5_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 80 registers, used 1 barriers, 33808 bytes smem
+ptxas info    : Compile time = 45.129 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail4scan20DeviceScanInitKernelINS0_13ScanTileStateIiLb1EEEEEvT_i' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail4scan20DeviceScanInitKernelINS0_13ScanTileStateIiLb1EEEEEvT_i
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 8 registers, used 0 barriers
+ptxas info    : Compile time = 1.441 ms
+ptxas info    : Compiling entry function '_ZN3cub18CUB_300104_SM_12006detail11EmptyKernelIvEEvv' for 'sm_120'
+ptxas info    : Function properties for _ZN3cub18CUB_300104_SM_12006detail11EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 4 registers, used 0 barriers
+ptxas info    : Compile time = 0.482 ms
+ptxas info    : Compiling entry function '_Z13sampled_pairsPKyPKiS2_PKhS2_iiPi' for 'sm_120'
+ptxas info    : Function properties for _Z13sampled_pairsPKyPKiS2_PKhS2_iiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, used 0 barriers
+ptxas info    : Compile time = 28.911 ms
+ptxas info    : Compiling entry function '_Z10pair_testsPKyPKiPKhS2_iPi' for 'sm_120'
+ptxas info    : Function properties for _Z10pair_testsPKyPKiPKhS2_iPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, used 0 barriers
+ptxas info    : Compile time = 28.698 ms
+ptxas info    : Compiling entry function '_Z16merge_top_blocksPKyiPy' for 'sm_120'
+ptxas info    : Function properties for _Z16merge_top_blocksPKyiPy
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 38 registers, used 1 barriers, 9280 bytes smem
+ptxas info    : Compile time = 6.466 ms
+ptxas info    : Compiling entry function '_Z19distance_top_blocksPKyPKiPKhS2_S2_iPy' for 'sm_120'
+ptxas info    : Function properties for _Z19distance_top_blocksPKyPKiPKhS2_S2_iPy
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, used 1 barriers, 9280 bytes smem
+ptxas info    : Compile time = 29.430 ms
+ptxas info    : Compiling entry function '_Z17gather_candidatesPKjPKhPKiS4_iiPhPiS6_' for 'sm_120'
+ptxas info    : Function properties for _Z17gather_candidatesPKjPKhPKiS4_iiPhPiS6_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, used 0 barriers
+ptxas info    : Compile time = 4.991 ms
+ptxas info    : Compiling entry function '_Z11select_rowsPKyPKiiPjPi' for 'sm_120'
+ptxas info    : Function properties for _Z11select_rowsPKyPKiiPjPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 12 registers, used 0 barriers
+ptxas info    : Compile time = 1.965 ms
+ptxas info    : Compiling entry function '_Z9vote_keysPKiS0_iPyPi' for 'sm_120'
+ptxas info    : Function properties for _Z9vote_keysPKiS0_iPyPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 16 registers, used 1 barriers, 44 bytes smem
+ptxas info    : Compile time = 2.976 ms
+ptxas info    : Compiling entry function '_Z13vote_postingsPKiS0_S0_iPiS1_' for 'sm_120'
+ptxas info    : Function properties for _Z13vote_postingsPKiS0_S0_iPiS1_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 18 registers, used 0 barriers
+ptxas info    : Compile time = 2.288 ms
+ptxas info    : Compiling entry function '_Z11route_queryPKyPKiPKhS2_iiPi' for 'sm_120'
+ptxas info    : Function properties for _Z11route_queryPKyPKiPKhS2_iiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 48 registers, used 1 barriers, 9280 bytes smem
+ptxas info    : Compile time = 104.815 ms
+ptxas info    : Compiling entry function '_Z16extract_postingsPKyiPi' for 'sm_120'
+ptxas info    : Function properties for _Z16extract_postingsPKyiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 10 registers, used 0 barriers
+ptxas info    : Compile time = 1.203 ms
+ptxas info    : Compiling entry function '_Z12posting_keysPKiiiPyPi' for 'sm_120'
+ptxas info    : Function properties for _Z12posting_keysPKiiiPyPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 14 registers, used 0 barriers
+ptxas info    : Compile time = 2.658 ms
+ptxas info    : Compiling entry function '_Z19nearest_membershipsPKtiiPi' for 'sm_120'
+ptxas info    : Function properties for _Z19nearest_membershipsPKtiiPi
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 47 registers, used 1 barriers, 9280 bytes smem
+ptxas info    : Compile time = 9.784 ms
+ptxas info    : Compiling entry function '_Z20all_anchor_distancesPKyPKiiPKhS2_iPt' for 'sm_120'
+ptxas info    : Function properties for _Z20all_anchor_distancesPKyPKiiPKhS2_iPt
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 46 registers, used 0 barriers
+ptxas info    : Compile time = 29.623 ms
+ptxas info    : Compiling entry function '_Z10make_masksPKhPKiiPy' for 'sm_120'
+ptxas info    : Function properties for _Z10make_masksPKhPKiiPy
+    32 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, used 0 barriers, 32 bytes cumulative stack size
+ptxas info    : Compile time = 6.772 ms

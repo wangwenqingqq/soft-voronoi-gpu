@@ -1,0 +1,2 @@
+name, memory.used [MiB], utilization.gpu [%], clocks.current.sm [MHz], clocks.current.memory [MHz], temperature.gpu
+NVIDIA RTX PRO 6000 Blackwell Server Edition, 14 MiB, 83 %, 2310 MHz, 12481 MHz, 32

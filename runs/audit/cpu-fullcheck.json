@@ -1,0 +1,20 @@
+{
+  "words": {
+    "full_scan_query": 0,
+    "database_records": 100000,
+    "top10_match": true,
+    "wall_seconds": 3.214700833
+  },
+  "dna_clustered": {
+    "full_scan_query": 0,
+    "database_records": 100000,
+    "top10_match": true,
+    "wall_seconds": 3.5183338749999997
+  },
+  "dna_random": {
+    "full_scan_query": 0,
+    "database_records": 100000,
+    "top10_match": true,
+    "wall_seconds": 4.270245709000001
+  }
+}

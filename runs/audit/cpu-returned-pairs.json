@@ -1,0 +1,32 @@
+{
+  "words": {
+    "sample_query_ids": [
+      0,
+      31,
+      64,
+      127
+    ],
+    "distinct_returned_pairs": 60,
+    "all_match": true
+  },
+  "dna_clustered": {
+    "sample_query_ids": [
+      0,
+      31,
+      64,
+      127
+    ],
+    "distinct_returned_pairs": 41,
+    "all_match": true
+  },
+  "dna_random": {
+    "sample_query_ids": [
+      0,
+      31,
+      64,
+      127
+    ],
+    "distinct_returned_pairs": 157,
+    "all_match": true
+  }
+}

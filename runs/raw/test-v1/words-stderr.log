@@ -1,0 +1,33 @@
+2026-10-29T09:25:30Z loading/layout 100000 objects; building 512 anchors
+2026-10-29T09:25:31Z sample-check passed 64 deterministic real database/query pairs outside timing
+2026-10-29T09:25:31Z benchmark kb=4 cap=2000
+2026-10-29T09:25:31Z completed 32/128 queries
+2026-10-29T09:25:31Z completed 64/128 queries
+2026-10-29T09:25:31Z completed 96/128 queries
+2026-10-29T09:25:31Z completed 128/128 queries
+2026-10-29T09:25:31Z benchmark kb=4 cap=5000
+2026-10-29T09:25:31Z completed 32/128 queries
+2026-10-29T09:25:31Z completed 64/128 queries
+2026-10-29T09:25:31Z completed 96/128 queries
+2026-10-29T09:25:31Z completed 128/128 queries
+2026-10-29T09:25:31Z benchmark kb=8 cap=2000
+2026-10-29T09:25:31Z completed 32/128 queries
+2026-10-29T09:25:31Z completed 64/128 queries
+2026-10-29T09:25:31Z completed 96/128 queries
+2026-10-29T09:25:31Z completed 128/128 queries
+2026-10-29T09:25:31Z benchmark kb=8 cap=5000
+2026-10-29T09:25:31Z completed 32/128 queries
+2026-10-29T09:25:31Z completed 64/128 queries
+2026-10-29T09:25:31Z completed 96/128 queries
+2026-10-29T09:25:31Z completed 128/128 queries
+2026-10-29T09:25:31Z benchmark kb=16 cap=2000
+2026-10-29T09:25:31Z completed 32/128 queries
+2026-10-29T09:25:31Z completed 64/128 queries
+2026-10-29T09:25:31Z completed 96/128 queries
+2026-10-29T09:25:31Z completed 128/128 queries
+2026-10-29T09:25:31Z benchmark kb=16 cap=5000
+2026-10-29T09:25:31Z completed 32/128 queries
+2026-10-29T09:25:31Z completed 64/128 queries
+2026-10-29T09:25:31Z completed 96/128 queries
+2026-10-29T09:25:31Z completed 128/128 queries
+2026-10-29T09:25:31Z benchmark complete

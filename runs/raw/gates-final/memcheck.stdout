@@ -1,0 +1,3 @@
+========= COMPUTE-SANITIZER
+{"type":"self_test","status":"pass","pair_cases":4864,"pair_repetitions":8,"pipeline_cases":25}
+========= ERROR SUMMARY: 0 errors

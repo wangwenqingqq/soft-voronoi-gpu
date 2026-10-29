@@ -1,0 +1,23 @@
+{
+  "records": 6912,
+  "hashed_files": [
+    "soft_voronoi_bench.cu",
+    "scripts/prepare_data.py",
+    "scripts/summarize.py",
+    "scripts/run_campaign.sh",
+    "runs/CONTRACT.md",
+    "data/manifest.json",
+    "build/compile.command",
+    "build/compile.stderr",
+    "data/words/db.txt",
+    "data/words/test.txt",
+    "data/dna_clustered/db.txt",
+    "data/dna_clustered/test.txt",
+    "data/dna_random/db.txt",
+    "data/dna_random/test.txt"
+  ],
+  "local_missing": [
+    "build/soft_voronoi_bench"
+  ],
+  "max_stage_residual_ms": 5.0379999838590095e-08
+}

@@ -1,0 +1,22 @@
+{
+  "mode": "dev",
+  "files": {
+    "soft_voronoi_bench.cu": "6bd003a60220565ef27d3c5d97a1b4d17166c9e1826c579e1a3e23fd30676973",
+    "build/soft_voronoi_bench": "b4debd6522fbf827fa5ddf0d552ffb255f2e517672e70f125631fa96fac26eb3",
+    "scripts/prepare_data.py": "65c04052597de504a0bb5f750428984c35cdc1f40c59bef51f608debbe23baeb",
+    "scripts/summarize.py": "956f9739cdc370f436680ae80c757d44f78c1b7170cc1bdbcb201952132cc4bc",
+    "scripts/run_campaign.sh": "707562f88edcee5b264ee5be410edfb12848b7dfd40d0c5abe819bb330c7ab01",
+    "runs/CONTRACT.md": "16699eb1b56df19c827ee440442abdbb1c35eb5addc3cabda9c07cb8de5469b5",
+    "data/manifest.json": "221d403a2add95f22827646681473fe7169901abaefe1f9c92fd2a2cffa70344",
+    "build/compile.command": "3f3f073073c27b0c4b73647552a49cb51ffa0f6c3bc6b90eb1ea5dc8082ac85a",
+    "build/compile.stderr": "400388cd4e8099c6bc379d7507313c9420fae0fbf8dde85e4296a7db7556cf20",
+    "data/words/db.txt": "d9ced29a7e1ec90f19bb059d57dc1a78fbd71a70b6919f1f24371053f062f5a8",
+    "data/words/dev.txt": "d91cf00f01539005faa36636ef19a94bff1d7d4a69c4982102bd53b69d996e0f",
+    "data/dna_clustered/db.txt": "21a8ef0ed5eb1b57a5e7b3edd279b8e62e6e68795f7839b753ba0edab57d9ae1",
+    "data/dna_clustered/dev.txt": "2dac85721e5f9b9ee12cda19ef9e7a375b6dffb9dac78d4f60ba717e29385e19",
+    "data/dna_random/db.txt": "869c7c6ed8c7ea495be8c83f1b18819beb363f93bce02d8f5d94c1cf54cb197b",
+    "data/dna_random/dev.txt": "65af20122b61b0e4d01ed8438837f6c5a6bc2d8e6886543ee3242227f915cd33"
+  },
+  "clock_policy": "unchanged",
+  "timing": "resident single-query, query H2D to result D2H, synchronized"
+}

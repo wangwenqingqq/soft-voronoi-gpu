@@ -1,0 +1,3 @@
+2026-10-29T09:19:27Z self-test: independent CPU DP versus GPU Myers
+2026-10-29T09:19:27Z self-test: 4864 boundary/random pairs passed eight repetitions
+2026-10-29T09:19:29Z self-test: complete GPU memberships/CSR/routing/votes/candidates/gather/top10 agree with CPU

@@ -1,0 +1,203 @@
+{
+  "config": {
+    "dev": 32,
+    "n": 100000,
+    "seed": 1729,
+    "test": 128,
+    "workloads": [
+      "words",
+      "dna_clustered",
+      "dna_random"
+    ]
+  },
+  "generator_sha256": "65c04052597de504a0bb5f750428984c35cdc1f40c59bef51f608debbe23baeb",
+  "metric": "unit-cost global Levenshtein distance on ASCII bytes",
+  "schema_version": 1,
+  "workloads": {
+    "dna_clustered": {
+      "center_count": 256,
+      "center_length": 192,
+      "deletion_probability": 0.02,
+      "files": {
+        "db": {
+          "bytes": 19301140,
+          "count": 100000,
+          "duplicates": 0,
+          "length_max": 205,
+          "length_mean": 192.0114,
+          "length_median": 192.0,
+          "length_min": 179,
+          "path": "db.txt",
+          "sha256": "21a8ef0ed5eb1b57a5e7b3edd279b8e62e6e68795f7839b753ba0edab57d9ae1",
+          "unique_count": 100000
+        },
+        "dev": {
+          "bytes": 6166,
+          "count": 32,
+          "duplicates": 0,
+          "length_max": 196,
+          "length_mean": 191.6875,
+          "length_median": 192.0,
+          "length_min": 186,
+          "path": "dev.txt",
+          "sha256": "2dac85721e5f9b9ee12cda19ef9e7a375b6dffb9dac78d4f60ba717e29385e19",
+          "unique_count": 32
+        },
+        "test": {
+          "bytes": 24715,
+          "count": 128,
+          "duplicates": 0,
+          "length_max": 199,
+          "length_mean": 192.0859375,
+          "length_median": 192.0,
+          "length_min": 185,
+          "path": "test.txt",
+          "sha256": "50a45ed233e1e36bf91384bcea0572903e265be6b3b4ddc3196c4e13896ef92f",
+          "unique_count": 128
+        }
+      },
+      "insertion_probability": 0.02,
+      "kind": "dna_clustered",
+      "length_range": [
+        128,
+        256
+      ],
+      "rejected_samples": {
+        "db": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "seeds": {
+        "centers": 14924624583416246803,
+        "db": 3484195855851492278,
+        "dev": 9339408925949348017,
+        "test": 10752556297200449146
+      },
+      "split_intersections": {
+        "db_dev": 0,
+        "db_test": 0,
+        "dev_test": 0
+      },
+      "substitution_probability": 0.05
+    },
+    "dna_random": {
+      "center_count": 0,
+      "center_length": null,
+      "deletion_probability": null,
+      "files": {
+        "db": {
+          "bytes": 19282421,
+          "count": 100000,
+          "duplicates": 0,
+          "length_max": 256,
+          "length_mean": 191.82421,
+          "length_median": 192.0,
+          "length_min": 128,
+          "path": "db.txt",
+          "sha256": "869c7c6ed8c7ea495be8c83f1b18819beb363f93bce02d8f5d94c1cf54cb197b",
+          "unique_count": 100000
+        },
+        "dev": {
+          "bytes": 6319,
+          "count": 32,
+          "duplicates": 0,
+          "length_max": 253,
+          "length_mean": 196.46875,
+          "length_median": 198.5,
+          "length_min": 135,
+          "path": "dev.txt",
+          "sha256": "65af20122b61b0e4d01ed8438837f6c5a6bc2d8e6886543ee3242227f915cd33",
+          "unique_count": 32
+        },
+        "test": {
+          "bytes": 25874,
+          "count": 128,
+          "duplicates": 0,
+          "length_max": 254,
+          "length_mean": 201.140625,
+          "length_median": 202.5,
+          "length_min": 131,
+          "path": "test.txt",
+          "sha256": "bb84f38934b089997cc12c9966a01ed4354e446061c5a0f4ff12396e131ae928",
+          "unique_count": 128
+        }
+      },
+      "insertion_probability": null,
+      "kind": "dna_random",
+      "length_range": [
+        128,
+        256
+      ],
+      "rejected_samples": {
+        "db": 0,
+        "dev": 0,
+        "test": 0
+      },
+      "seeds": {
+        "centers": 18062903826757409363,
+        "db": 18375552946666453305,
+        "dev": 4060222060574902481,
+        "test": 17580720062226290607
+      },
+      "split_intersections": {
+        "db_dev": 0,
+        "db_test": 0,
+        "dev_test": 0
+      },
+      "substitution_probability": null
+    },
+    "words": {
+      "files": {
+        "db": {
+          "bytes": 1044237,
+          "count": 100000,
+          "duplicates": 0,
+          "length_max": 29,
+          "length_mean": 9.44237,
+          "length_median": 9.0,
+          "length_min": 1,
+          "path": "db.txt",
+          "sha256": "d9ced29a7e1ec90f19bb059d57dc1a78fbd71a70b6919f1f24371053f062f5a8",
+          "unique_count": 100000
+        },
+        "dev": {
+          "bytes": 350,
+          "count": 32,
+          "duplicates": 0,
+          "length_max": 19,
+          "length_mean": 9.9375,
+          "length_median": 10.0,
+          "length_min": 6,
+          "path": "dev.txt",
+          "sha256": "d91cf00f01539005faa36636ef19a94bff1d7d4a69c4982102bd53b69d996e0f",
+          "unique_count": 32
+        },
+        "test": {
+          "bytes": 1406,
+          "count": 128,
+          "duplicates": 0,
+          "length_max": 19,
+          "length_mean": 9.984375,
+          "length_median": 9.0,
+          "length_min": 5,
+          "path": "test.txt",
+          "sha256": "01041d72fd3a255dfd545b18583249e1fb36bf60f3c7cf81b14877e3efe146a7",
+          "unique_count": 128
+        }
+      },
+      "kind": "held-out real English dictionary words",
+      "license": "Unlicense",
+      "license_url": "https://raw.githubusercontent.com/dwyl/english-words/20f5cc9b3f0ccc8ce45d814c532b7c2031bba31c/LICENSE.md",
+      "shuffle_seed": 1729,
+      "source_commit": "20f5cc9b3f0ccc8ce45d814c532b7c2031bba31c",
+      "source_sha256": "3ed0c94610d8bcf7c11bbb49c56aa49c7234d32b66824df91f554169e572da48",
+      "source_url": "https://raw.githubusercontent.com/dwyl/english-words/20f5cc9b3f0ccc8ce45d814c532b7c2031bba31c/words_alpha.txt",
+      "split_intersections": {
+        "db_dev": 0,
+        "db_test": 0,
+        "dev_test": 0
+      },
+      "valid_source_count": 370105
+    }
+  }
+}
